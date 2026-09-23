@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pulse Stack – Minimalist 3D stacking game for iOS</title>
+<meta name="description" content="Pulse Stack is a minimalist 3D stacking game for iOS. One tap, perfect timing, endless tower – with 30 block designs and Game Center leaderboards.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Pulse Stack – Minimalist 3D stacking game for iOS">
+<meta property="og:description" content="Pulse Stack is a minimalist 3D stacking game for iOS. One tap, perfect timing, endless tower – with 30 block designs and Game Center leaderboards.">
+<link rel="alternate" hreflang="de" href="de/marketing.html">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="stylesheet" href="style.css">
+<style>
+  /* Pulse Stack page – additions on top of style.css (kept neutral so it follows the site's look) */
+  .mk-art{display:flex;justify-content:center;margin:8px 0}
+  .mk-stack{width:100%;max-width:340px;height:auto;overflow:visible}
+  .mk-slider{animation:mk-slide 2.4s ease-in-out infinite alternate}
+  @keyframes mk-slide{from{transform:translate(-32px,-18px)}to{transform:translate(32px,18px)}}
+  @media (prefers-reduced-motion:reduce){.mk-slider{animation:none}}
+  .mk-tagline{font-weight:700;font-size:1.25rem;background:linear-gradient(90deg,#0ea5e9,#c026d3);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .mk-actions{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin:20px 0 8px}
+  .mk-btn{display:inline-block;padding:12px 22px;border-radius:12px;font-weight:600;line-height:1.2;text-decoration:none;border:1px solid transparent}
+  .mk-btn-primary{background:linear-gradient(135deg,#0ea5e9,#c026d3);color:#fff}
+  .mk-btn-soon{border-color:rgba(128,128,128,.5);opacity:.85;cursor:default}
+  .mk-btn-ghost{border-color:rgba(128,128,128,.5);color:inherit}
+  .mk-section{margin-top:48px}
+  .mk-section h2{margin:0 0 16px;font-size:1.5rem}
+  .mk-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+  .mk-card,.mk-facts div,.mk-faq details{border:1px solid rgba(128,128,128,.3);border-radius:12px}
+  .mk-card{padding:18px 20px}
+  .mk-card h3{margin:0 0 6px;font-size:1.05rem}
+  .mk-card p,.mk-steps p{margin:0;line-height:1.55;opacity:.8}
+  .mk-steps{list-style:none;margin:0;padding:0;display:grid;gap:16px}
+  .mk-steps li{display:flex;gap:14px;align-items:flex-start}
+  .mk-steps h3{margin:0 0 2px;font-size:1.05rem}
+  .mk-num{flex:none;width:32px;height:32px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-weight:700;color:#fff;background:linear-gradient(135deg,#0ea5e9,#c026d3)}
+  .mk-facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:0}
+  .mk-facts div{padding:14px 18px}
+  .mk-facts dt{font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;opacity:.65;margin-bottom:4px}
+  .mk-facts dd{margin:0;font-weight:600}
+  .mk-faq details{margin-bottom:10px}
+  .mk-faq summary{cursor:pointer;padding:14px 18px;font-weight:600}
+  .mk-faq details p{margin:0;padding:0 18px 16px;line-height:1.55;opacity:.85}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="wordmark" href="index.html"><img src="logo-lnsb.png" alt="LNSB-Publishing" height="30"></a>
+    <nav class="site-nav">
+      <a href="marketing.html">Pulse Stack</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="support.html">Support</a>
+      <a class="lang-switch" href="de/marketing.html" hreflang="de">DE</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="hero">
+    <h1>Pulse Stack</h1>
+    <p class="mk-tagline">Stack higher. Stay in rhythm.</p>
+    <p>A minimalist 3D stacking game. One tap, perfect timing, an endless tower – how high can you go?</p>
+    <div class="mk-art"><svg class="mk-stack" viewBox="-191 -210 382 380" role="img" aria-label="Illustration of a colourful tower of stacked 3D blocks" xmlns="http://www.w3.org/2000/svg"><ellipse cx="0" cy="82" rx="150" ry="46" fill="#000" opacity=".14"/><g opacity="1.0" ><polygon points="-121.2,70.0 0.0,140.0 0.0,120.0 -121.2,50.0" fill="#20bfdf"/><polygon points="121.2,70.0 0.0,140.0 0.0,120.0 121.2,50.0" fill="#1891aa"/><polygon points="0.0,-20.0 121.2,50.0 0.0,120.0 -121.2,50.0" fill="#5fd9f2"/></g><g opacity="1.0" ><polygon points="-116.0,47.0 5.2,117.0 5.2,97.0 -116.0,27.0" fill="#208bdf"/><polygon points="116.0,53.0 5.2,117.0 5.2,97.0 116.0,33.0" fill="#186aaa"/><polygon points="-5.2,-37.0 116.0,33.0 5.2,97.0 -116.0,27.0" fill="#5fb2f2"/></g><g opacity="1.0" ><polygon points="-109.1,31.0 -1.7,93.0 -1.7,73.0 -109.1,11.0" fill="#2058df"/><polygon points="109.1,29.0 -1.7,93.0 -1.7,73.0 109.1,9.0" fill="#1843aa"/><polygon points="1.7,-53.0 109.1,9.0 -1.7,73.0 -109.1,11.0" fill="#5f8af2"/></g><g opacity="1.0" ><polygon points="-105.7,9.0 1.7,71.0 1.7,51.0 -105.7,-11.0" fill="#2024df"/><polygon points="105.7,11.0 1.7,71.0 1.7,51.0 105.7,-9.0" fill="#181baa"/><polygon points="-1.7,-71.0 105.7,-9.0 1.7,51.0 -105.7,-11.0" fill="#5f62f2"/></g><g opacity="1.0" ><polygon points="-102.2,-9.0 -1.7,49.0 -1.7,29.0 -102.2,-29.0" fill="#5020df"/><polygon points="102.2,-11.0 -1.7,49.0 -1.7,29.0 102.2,-31.0" fill="#3d18aa"/><polygon points="1.7,-89.0 102.2,-31.0 -1.7,29.0 -102.2,-29.0" fill="#835ff2"/></g><g opacity="1.0" ><polygon points="-98.7,-31.0 1.7,27.0 1.7,7.0 -98.7,-51.0" fill="#8320df"/><polygon points="98.7,-29.0 1.7,27.0 1.7,7.0 98.7,-49.0" fill="#6418aa"/><polygon points="-1.7,-107.0 98.7,-49.0 1.7,7.0 -98.7,-51.0" fill="#ab5ff2"/></g><g opacity="1.0" ><polygon points="-95.3,-49.0 -1.7,5.0 -1.7,-15.0 -95.3,-69.0" fill="#b720df"/><polygon points="95.3,-51.0 -1.7,5.0 -1.7,-15.0 95.3,-71.0" fill="#8b18aa"/><polygon points="1.7,-125.0 95.3,-71.0 -1.7,-15.0 -95.3,-69.0" fill="#d35ff2"/></g><g opacity="1.0" ><polygon points="-91.8,-71.0 1.7,-17.0 1.7,-37.0 -91.8,-91.0" fill="#df20d3"/><polygon points="91.8,-69.0 1.7,-17.0 1.7,-37.0 91.8,-89.0" fill="#aa18a0"/><polygon points="-1.7,-143.0 91.8,-89.0 1.7,-37.0 -91.8,-91.0" fill="#f25fe9"/></g><g class="mk-slider-wrap"><g opacity="0.9" class="mk-slider"><polygon points="-91.8,-91.0 1.7,-37.0 1.7,-57.0 -91.8,-111.0" fill="#df209f"/><polygon points="91.8,-89.0 1.7,-37.0 1.7,-57.0 91.8,-109.0" fill="#aa1879"/><polygon points="-1.7,-163.0 91.8,-109.0 1.7,-57.0 -91.8,-111.0" fill="#f25fc1"/></g></g></svg></div>
+    <div class="mk-actions">
+      <a class="mk-btn mk-btn-primary" href="https://apps.apple.com/ch/app/pulsestackgame/id6810396804" rel="noopener">Download on the App Store</a>
+      <!-- WHEN THE APP IS LIVE: replace the line above with
+      <a class="mk-btn mk-btn-primary" href="https://apps.apple.com/app/idYOUR_APP_ID" rel="noopener">Download on the App Store</a> -->
+      <a class="mk-btn mk-btn-ghost" href="#features">See features</a>
+    </div>
+  </div>
+
+  <section class="mk-section" id="features">
+    <h2>Simple to learn. Hard to master.</h2>
+    <div class="mk-grid">
+      <div class="mk-card"><h3>One-tap gameplay</h3><p>Tap to drop the moving block. Line it up well and your tower keeps its size; miss and it gets trimmed.</p></div>
+      <div class="mk-card"><h3>Real 3D look</h3><p>A clean 3D view with smooth animation and a colour palette that shifts as your tower grows.</p></div>
+      <div class="mk-card"><h3>30 block designs</h3><p>Collect coins as you play and unlock new looks for your blocks. Some designs unlock by watching optional rewarded ads.</p></div>
+      <div class="mk-card"><h3>Leaderboards &amp; achievements</h3><p>Compete with friends and players worldwide through Apple Game Center.</p></div>
+      <div class="mk-card"><h3>Second chance</h3><p>Use revive credits to continue a great run instead of starting over.</p></div>
+      <div class="mk-card"><h3>Your progress is saved</h3><p>Best score, coins and unlocked designs are stored on your device. No account needed.</p></div>
+      </div>
+  </section>
+
+  <section class="mk-section">
+    <h2>Three taps to get hooked</h2>
+    <ol class="mk-steps">
+      <li><span class="mk-num">1</span><div><h3>Watch the block</h3><p>A block slides back and forth above your tower.</p></div></li>
+      <li><span class="mk-num">2</span><div><h3>Tap at the right time</h3><p>Stop it exactly on top. Perfect timing keeps your tower wide.</p></div></li>
+      <li><span class="mk-num">3</span><div><h3>Climb higher</h3><p>Every block adds to your score. Beat your best and climb the leaderboard.</p></div></li>
+      </ol>
+  </section>
+
+  <section class="mk-section">
+    <h2>At a glance</h2>
+    <dl class="mk-facts">
+      <div><dt>Platform</dt><dd>iPhone (iOS)</dd></div>
+      <div><dt>Price</dt><dd>Free, with optional in-app purchases</dd></div>
+      <div><dt>Genre</dt><dd>Casual &middot; Arcade &middot; Stacking</dd></div>
+      <div><dt>Publisher</dt><dd>LNSB-Publishing</dd></div>
+      </dl>
+  </section>
+
+  <section class="mk-section">
+    <h2>Questions &amp; answers</h2>
+    <div class="mk-faq">
+      <details><summary>Is Pulse Stack free?</summary><p>Yes. You can download and play for free. Optional in-app purchases let you remove ads or buy revive credits.</p></details>
+      <details><summary>Do I need an account?</summary><p>No. Pulse Stack does not ask you to create an account. Apple Game Center is used for leaderboards and achievements.</p></details>
+      <details><summary>What data does the app collect?</summary><p>Please read our <a href="privacy.html">privacy policy</a> for the full details.</p></details>
+      <details><summary>Something is not working. Who can help?</summary><p>Visit our <a href="support.html">support page</a> or write to <a href="mailto:LNSB-Publishing@outlook.com">LNSB-Publishing@outlook.com</a>.</p></details>
+      </div>
+  </section>
+
+  <section class="mk-section">
+    <div class="links">
+      <a class="link-tile" href="privacy.html">
+        <div class="title">Privacy Policy</div>
+        <div class="desc">What data our apps process, why, and what rights you have.</div>
+      </a>
+      <a class="link-tile" href="support.html">
+        <div class="title">Support</div>
+        <div class="desc">Questions, issues, or feedback about one of our apps.</div>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    LNSB-Publishing · Contact: <a href="mailto:LNSB-Publishing@outlook.com">LNSB-Publishing@outlook.com</a>
+  </div>
+</footer>
+
+</body>
+</html>
